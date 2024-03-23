@@ -1,0 +1,58 @@
+.container{
+    height: auto;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+
+}
+.box{
+
+}
+.heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.img{
+    height: 40px;
+    margin-right: 10px;
+    font-weight:bold;
+}
+
+.title{
+    color: rgba(76, 78, 100, 0.87); 
+    font-weight: 600;
+    font-size: 20px;
+    margin-right: 80px;
+    font-family: 'poppins';
+
+}
+#email{
+    border-radius: 8px;
+    height: 50px;
+    padding: 0px, 0px, 16px, 0px;
+}
+::placeholder{
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+}
+#submitButton{
+    
+background-color: 
+#666CFF;
+font-family: 'poppins';
+font-weight: 500;
+size: 15px;
+}
+#lastPara{
+    font-weight: 400;
+    size: 14px;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.5);
+}
+.form-error{
+    color: red;
+}
