@@ -33,15 +33,15 @@ const Signup = () => {
     });
 
     return (
-        <div className='container'>
-            <div className="box mt-1 w-full max-w-sm p-4 rounded-lg sm:p-6 md:p-8 bg-[#FFFFFF] shadow-2xl border-red-300">
+        <div className='container '>
+            <div className="box mt-1 mx-auto w-full max-w-sm p-4 rounded-lg sm:p-6 md:p-8 bg-[#FFFFFF] shadow-2xl border-red-300">
                 <form className="space-y-6" onSubmit={handleSubmit}>
                     <div className='heading'>
                         <div className='img'> <img src={image} alt="Taska Logo" /> </div>
                         <div className='title color-[#141522] font-jakarta font-semibold'> Taska </div>
                     </div>
                     <div className='cardBody'>
-                        <div className='title'> Welcome to Taska! 👋🏻</div>
+                        <div className='title'> Welcome to Taska!  👋🏻</div>
                         <div>
                             <input type="text"
                                 name="name"

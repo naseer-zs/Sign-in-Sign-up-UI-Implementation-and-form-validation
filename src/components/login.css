@@ -1,58 +1,90 @@
-.container{
-    height: auto;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-    margin-top: 20px;
-
-}
-.box{
-
-}
-.heading{
+.container {
+    height: 100vh; /* Adjust height as needed */
     display: flex;
     justify-content: center;
     align-items: center;
-    
-}
-.img{
-    height: 40px;
-    margin-right: 10px;
-    font-weight:bold;
 }
 
-.title{
+.box {
+    width: 100%; /* Ensure the box takes full width */
+    max-width: 400px; /* Adjust max-width as needed */
+    padding: 20px;
+    margin:auto;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
+}
+
+.heading {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.img {
+    height: 40px;
+    margin-right: 10px;
+}
+
+.title {
     color: rgba(76, 78, 100, 0.87); 
     font-weight: 600;
     font-size: 20px;
-    margin-right: 80px;
     font-family: 'poppins';
-
 }
-#email{
+
+#email {
     border-radius: 8px;
     height: 50px;
-    padding: 0px, 0px, 16px, 0px;
+    padding: 0px 10px; /* Adjust padding as needed */
 }
-::placeholder{
+
+::placeholder {
     font-size: 14px;
     font-weight: 600;
     color: black;
 }
-#submitButton{
-    
-background-color: 
-#666CFF;
-font-family: 'poppins';
-font-weight: 500;
-size: 15px;
+
+#submitButton {
+    background-color: #666CFF;
+    font-family: 'poppins';
+    font-weight: 500;
+    font-size: 15px;
+    width: 100%; /* Ensure button takes full width */
+    border: none;
+    border-radius: 8px;
+    padding: 10px 0; /* Adjust padding as needed */
+    cursor: pointer;
 }
-#lastPara{
+
+#lastPara {
     font-weight: 400;
-    size: 14px;
+    font-size: 14px;
     text-align: center;
     color: rgba(0, 0, 0, 0.5);
 }
-.form-error{
+
+.form-error {
     color: red;
+}
+.container {
+    max-width: 100%;
+}
+
+@media (max-width: 1279px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 1023px) {
+    .container {
+        max-width: 100%;
+    }
+}
+
+@media (max-width: 767px) {
+    .container {
+        max-width: 100%;
+    }
 }
